@@ -458,7 +458,16 @@ div#sea {
 }
 .row img{
 		width: 100%;
+	margin-left: 50%;
 	
+}
+.row span img{
+width: 100%;
+	margin-left: 50%;}
+@media (max-width:768px)
+	{    .row span img{
+		width: 100%;
+		}
 }
 #h {
 	cursor:pointer;
